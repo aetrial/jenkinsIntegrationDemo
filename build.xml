@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="dummy" default="default">
+
+
+    <property name="version" value="${env.VERSION}"/>
+    <property name="version2" value="${env.VERSION2}"/>
+
+    <target name="show">
+        <echo msg= "version: ${version}"/>
+        <echo msg= "BUILD_NUMBER: ${version2}"/>
+    </target>
+
+</project>
