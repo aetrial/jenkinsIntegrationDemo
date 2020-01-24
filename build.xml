@@ -2,12 +2,16 @@
 <project name="dummy" default="default">
 
 
-    <property name="version" value="${env.VERSION}"/>
-    <property name="version2" value="${env.VERSION2}"/>
+    <property name="version" value="0-SNAPSHOT"/>
+  <property name="version2" value="1.6.1"/>
 
     <target name="show">
-        <echo msg= "version: ${version}"/>
-        <echo msg= "BUILD_NUMBER: ${version2}"/>
+        <echo msg= "version: ${env.VERSION}"/>
+      <echo msg= "version2: ${env.VERSION2}"/>
     </target>
+  
+  <target name="default">
+    <echo msg="default necesary"/>
+  </target>
 
 </project>
