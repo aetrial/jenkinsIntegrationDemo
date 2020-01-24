@@ -6,8 +6,8 @@
   <property name="version2" value="1.6.1"/>
 
     <target name="show">
-        <echo msg= "version: ${env.VERSION}"/>
-      <echo msg= "version2: ${env.VERSION2}"/>
+        <echo msg= "version: ${version}"/>
+      <echo msg= "version2: ${version2}"/>
     </target>
   
   <target name="default">
